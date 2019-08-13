@@ -4,8 +4,7 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "add":"node ./lib/add.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,7 @@
   },
   "homepage": "https://github.com/FE-star/exercise2#readme",
   "devDependencies": {
+    "mocha": "^6.2.0",
     "should": "^11.2.1"
   }
 }
